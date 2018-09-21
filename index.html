@@ -14,14 +14,20 @@
 <body>
     <div class="wrapper">
         <div class="formContainer">
-            <h1>Welcomei</h1>
+            <h1>Welcome</h1>
 
             <form class="form">
-                <input type="text" placeholder="Username">
+                <input type="text" placeholder="Username" id="inpttxt">
                 <input type="password" placeholder="Password">
-                <input class="signup" type="password" placeholder="Confirm password">
-                <input class="signup" type="email" placeholder="yourMail@mai.com">
-                <button type="submit" id="login-button">Login</button>
+                <div class="signup">
+                    <input type="password" placeholder="Confirm password">
+                    <input type="email" placeholder="yourMail@mail.com">
+                </div>
+                <button  id="login-button">
+                    <div class="signupB">Sign Up</div>
+                    <div class="singinB">Sign In </div>
+                </button>
+                <!-- <button data-text-swap="Sign up" data-text-original="Sign In" type="submit" id="login-button">Sign In</button> -->
                 <p class="signupLink">Don't have an account? &nbsp;<a>Sign up</a></p>
             </form>
         </div>
